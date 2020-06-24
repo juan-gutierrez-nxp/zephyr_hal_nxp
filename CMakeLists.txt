@@ -11,3 +11,8 @@ add_subdirectory_ifdef(
   CONFIG_HAS_IMX_HAL
   imx
   )
+
+add_subdirectory_ifdef(
+  CONFIG_HAS_S32R45_HAL
+  s32r45
+  )
